@@ -14,7 +14,7 @@ app = Dash(__name__)
 server=app.server
 
 # Api url
-API_URL = 'http://127.0.0.1:8000/'
+API_URL = 'https://kay10api.herokuapp.com/'
 
 # Dataframe index
 indexes = requests.get(url=API_URL+ "get-Indexes").json()
