@@ -20,7 +20,7 @@ API_URL = 'https://kay10api.herokuapp.com/'
 indexes = requests.get(url=API_URL+ "get-DataframeIndexes").json()
 
 # Dataframe columns
-columns = requests.get(url = API_URL + "TestDataframeColumns").json()
+columns = requests.get(url = API_URL + "get-TestDataframeColumns").json()
 columns_2 = requests.get(url = API_URL + "get-DataframeInitialColumns").json()
 
 # Loading test data
